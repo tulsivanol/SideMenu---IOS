@@ -13,6 +13,8 @@
 		198FE08F25595FD400157AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198FE08E25595FD400157AC7 /* Assets.xcassets */; };
 		198FE09225595FD400157AC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198FE09125595FD400157AC7 /* Preview Assets.xcassets */; };
 		198FE09525595FD400157AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198FE09325595FD400157AC7 /* LaunchScreen.storyboard */; };
+		198FE09E255960C400157AC7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FE09D255960C400157AC7 /* MainView.swift */; };
+		198FE0A0255961AC00157AC7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198FE09F255961AC00157AC7 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		198FE09125595FD400157AC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		198FE09425595FD400157AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198FE09625595FD400157AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198FE09D255960C400157AC7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		198FE09F255961AC00157AC7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		198FE08725595FD300157AC7 /* SideMenuApp */ = {
 			isa = PBXGroup;
 			children = (
+				198FE09C255960AE00157AC7 /* View */,
 				198FE08825595FD300157AC7 /* AppDelegate.swift */,
 				198FE08A25595FD300157AC7 /* SceneDelegate.swift */,
 				198FE08C25595FD300157AC7 /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				198FE09125595FD400157AC7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		198FE09C255960AE00157AC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				198FE09D255960C400157AC7 /* MainView.swift */,
+				198FE09F255961AC00157AC7 /* MenuView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198FE0A0255961AC00157AC7 /* MenuView.swift in Sources */,
 				198FE08925595FD300157AC7 /* AppDelegate.swift in Sources */,
+				198FE09E255960C400157AC7 /* MainView.swift in Sources */,
 				198FE08B25595FD300157AC7 /* SceneDelegate.swift in Sources */,
 				198FE08D25595FD300157AC7 /* ContentView.swift in Sources */,
 			);
